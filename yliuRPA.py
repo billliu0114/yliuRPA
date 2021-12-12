@@ -86,7 +86,7 @@ def dataCheck(sheet1):
     return checkCmd
 
 # Robotic process automation
-def rpa(img):
+def rpa(sheet1):
     i = 1
     while i < sheet1.nrows:
         # get command type for this row
