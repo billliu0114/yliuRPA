@@ -39,12 +39,12 @@ def mouseClick(clickTimes,lOrR,img,reTry):
 #   4.0 Input  
 #   5.0 Wait  
 #   6.0 Scroll
-# ctype     empty：0
-#           string：1
-#           number：2
-#           date：3
-#           boolean：4
-#           error：5
+# ctype     empty: 0
+#           string: 1
+#           number: 2
+#           date: 3
+#           boolean: 4
+#           error: 5
 def dataCheck(sheet1):
     checkCmd = True
     # Check number of rows
